@@ -32,6 +32,7 @@ body{
     align-items: center;    
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    padding: 1rem;
 }
 .logo-side{
     display: flex;
@@ -87,7 +88,7 @@ body{
 .search-bar .search i{
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    padding: .35rem 1rem .45rem 1rem;
+    padding: .30rem 1rem .45rem 1rem;
 }
 .search-bar .mic{
     margin-right: 1rem;
@@ -114,9 +115,13 @@ body{
     font-weight: 600;
     text-align: center;
 }
+.main--container .container1 .about{
+    margin-top: 1rem;
+}
 .main--container .container1 .image-section1{
     margin-right: 3rem;
 }
+
 .container2 .team-members{
     display: flex;
    
@@ -187,12 +192,13 @@ body{
     list-style: none;
 }
 .footer .link-section-footer .product a{
-    font-weight: 300;
      padding-top: .8rem;  
      text-decoration: none;
      color: var(---Button-text-color);
      margin: 1rem;
-     text-align: justify;    
+     text-align: justify;  
+     font-weight: 450;  
+     font-size: 1rem;
 }    
 .footer .link-section-footer .product .contact-sales a,
 .footer .link-section-footer .product .view-demo a{
