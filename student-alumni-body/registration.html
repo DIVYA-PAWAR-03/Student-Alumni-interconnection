@@ -26,31 +26,31 @@
     <div class="main--container">
         <div class="left-section-form">
             <h1>Registration Form</h1>
-            <form action="../student-alumni-body/main.html" class="form">
+            <form  action="../student-alumni-body/main.html" class="form">
                 <b>First Name:</b> <br>
                 <input type="text" required class="box"> <br>
                 <b>Last Name:</b> <br>
-                <input type="text" name="" id="" required class="box"> <br>
+                <input type="text" name="" id="text1" required class="box"> <br>
                 <b>Email-id:</b> <br>
-                <input type="email"  required class="box"> <br>
+                <input type="email"  class="box"  id="email"> <br>
                 <b>Password:</b> <br>
-                <input type="password" required class="box"> <br>
+                <input type="password" class="box"  id="pass"> <br>
                 <!-- <b>Gender:</b> <br>
                 <input type="radio" class="box">  Male <input type="radio" class="box">  Female -->
                 
             </form>
         </div>
          <div class="right-section-form">
-            <form action="../student-alumni-body/main.html" class="form1">
+            <form onsubmit="return validate()" action="../student-alumni-body/main.html" class="form1">
                 <h3>General Information</h3>
                 <b>Domain:</b> <br>
-                <input type="text" name="" id="" class="box"> <br>
+                <input type="text" name="" id="text" class="box"> <br>
                 <b>PRN No.:</b> <br>
                 <input type="text" required  class="box"> <br>
                 <b>College id:</b> <br>
                 <input type="number" required  class="box"> <br>
                 <b>Batch:</b> <br>
-                <input type="number"  class="box"> <br>
+                <input type="year"  class="box"> <br>
                 <b>Phone Number:</b> <br>
                 <input type="number"  class="box"> <br>
                <b>Address:</b> <br>
@@ -65,5 +65,25 @@
             </form>
         </div> 
     </div>
+
+    <script>
+       
+
+        function validate() {
+            let mail = document.getElementById('email');
+            let pass = document.getElementById('pass');
+            if (mail.value== " " || pass.value=="") {
+                alert("Please fill the blank value");
+                return false;
+            } 
+            else {
+                alert("You have registered Successfully");
+                return true;
+            }
+
+        }
+
+        
+    </script>
 </body>
 </html>
