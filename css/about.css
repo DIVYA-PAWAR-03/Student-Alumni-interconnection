@@ -41,7 +41,7 @@ body{
     font-size: 1rem;
     color: var(--secondary-color);
     font-weight: 600;
-    text-align: center;
+    text-align: justify;
 }
 .main--container .container1 .about{
     margin-top: 1rem;
@@ -65,14 +65,14 @@ body{
     flex-direction: column;
     align-items: center;
    height: 400px;
-   width: 300px;
+   width: 400px;
     border: var(--border);
     border-radius: 10px;
     margin: 2rem 2rem ;
-    
+    object-fit: cover;
 }
 .container2 .team-members .member img{
-    height: 200px;
+    height: 250px;
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
