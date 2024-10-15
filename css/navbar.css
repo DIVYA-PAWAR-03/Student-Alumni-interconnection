@@ -4,13 +4,15 @@
     align-items: center;    
     background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding: 1rem;
+    padding: .4rem;
 }
 .logo-side{
     display: flex;
     align-items: center;
     gap: .4rem;
+    margin-left: 1rem;
 }
+
 .nav-section .toggle-bar{
     display: flex;
      gap: .3rem;
@@ -19,7 +21,7 @@
 }
 .nav-section .toggle-bar .line{
     height: 4px;
-    width: 43px;
+    width: 29px;
   background-color: var(--primary-color);
 }
 .logo-side .logo{
@@ -27,47 +29,55 @@
     font-size: 2rem;
     padding: .9rem 0;
     font-style: italic;
-}
-.links{
-    display: flex;
-    gap: 1rem;
-}
-.links li a{
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 1rem;
-
-}
-.links  li {
-    list-style: none;
-}
- .fa-chevron-down{
-    margin-left: .2rem;
-    color: var(--primary-color);  
-    font-size: .6rem;
+    font-size: 1.8rem;
 }
 .search-bar{
     display: flex;
     align-items: center;
     gap: .6rem;
+   
 }
 .search-bar .search input{
     padding: .4rem .3rem;
     border: none;
     width: 300px;
+    border-radius:   .2rem 0  0  .2rem;
+
     
 }
 .search-bar .search i{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     padding: .35rem 1rem .45rem 1rem;
+    border-radius: 0 .2rem .2rem 0 ;
+    background-color: #c6c6ff;
 }
-.search-bar .mic{
+.search-bar .search .mic{
+    border-radius: 100% ;
+    padding: .6rem .7rem;
+    color: var(--secondary-color);
+    background-color: #c6c6ff;
     margin-right: 1rem;
-    padding: .5rem; 
-   background-color: var(--primary-color);
-   color: var(--secondary-color);
-    border-radius: 100%;
+}
 
+.main-links .links{
+display: flex;
+padding: 1rem 2rem;
+background-color: #c6c6ff;
+align-items: center;
+gap: 1rem;
+list-style: none;
+justify-content: center;
 
+}
+.main-links .links li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.fa-chevron-down{
+    margin-left: .2rem;
+    color: var(--secondary-color);  
+    font-size: .6rem;
+    
 }

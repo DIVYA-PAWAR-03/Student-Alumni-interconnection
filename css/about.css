@@ -32,16 +32,17 @@ body{
     margin-top: 5rem;
 }
 .main--container .container1 .text-section1 h1{
-    font-size: 3rem;
-    text-align: center;
+    font-size: 2.5rem;
+
     margin-bottom: 1rem;
+   
 }
 .main--container .container1 .text-section1{
     margin: 0 2rem;
     font-size: 1rem;
     color: var(--secondary-color);
     font-weight: 600;
-    text-align: justify;
+    /* text-align: justify; */
 }
 .main--container .container1 .about{
     margin-top: 1rem;
