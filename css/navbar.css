@@ -34,16 +34,13 @@
 .search-bar{
     display: flex;
     align-items: center;
-    gap: .6rem;
-   
+    gap: .6rem; 
 }
 .search-bar .search input{
     padding: .4rem .3rem;
     border: none;
     width: 300px;
-    border-radius:   .2rem 0  0  .2rem;
-
-    
+    border-radius:   .2rem 0  0  .2rem;  
 }
 .search-bar .search i{
     background-color: var(--primary-color);

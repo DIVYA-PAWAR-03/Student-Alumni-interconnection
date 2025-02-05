@@ -132,6 +132,7 @@ body{
     font-weight: bold;
     font-size: .9rem;
     border-radius: var(--border-radius);
+    border: none;
 }
  .button:hover{
     background-color: var(--primary-color);
@@ -146,6 +147,7 @@ body{
     border-radius: var(--border-radius);
     font-weight: bold;
     font-size: .9rem;
+    border: none;
 }
 .btn:hover{
     background-color: var(--secondary-color);
